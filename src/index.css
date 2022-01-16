@@ -12,3 +12,17 @@ code {
     monospace;
 }
 
+@media screen and (max-width: 768px) {
+  #pantalla {
+      padding: 20px;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 425px) {
+  #pantalla {
+    padding: 20px;
+}
+}

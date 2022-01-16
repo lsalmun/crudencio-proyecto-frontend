@@ -22,8 +22,9 @@ function App() {
   return (
  
  <>
-
-<div>
+<div id = "pantalla">
+  
+  <div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -139,7 +140,8 @@ function App() {
     </Switch>
     </Router>
 
-   
+    </div>
+
     </>
 
     

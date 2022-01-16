@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import React from 'react';
 import { Formik } from 'formik';
 import Flyer from '../assets/img/flyer.jpeg';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import Pizza from '../assets/img/pizza.jpg';
 import Puerro from '../assets/img/puerro.jpg';
 import Tomate from '../assets/img/tomate.jpg';
@@ -13,9 +13,7 @@ function Home () {
     return (
 <>
 
-<div className="text-center">
-<a>Hola Mundo</a>
-</div>
+
 
 
 <div>
@@ -26,7 +24,7 @@ function Home () {
       
       src={Pizza}
       alt="First slide"
-      padding-left= "200px" width= "1200px" height= "400px" 
+      padding-left= "200px" width= "1314px" height= "400px" 
     />
     </div>
     <Carousel.Caption>
@@ -39,7 +37,7 @@ function Home () {
       
       src={Puerro}
       alt="Second slide" 
-      padding-left= "200px" width= "1200px" height= "400px" 
+      padding-left= "200px" width= "1314px" height= "400px" 
     />
 
     <Carousel.Caption>
@@ -52,7 +50,7 @@ function Home () {
       ClassName={Image.roundedCircle}
       src={Tomate}
       alt="Third slide"
-     padding-left= "200px" width= "1200px" height= "400px"
+      width= "1314px" height= "400px"
     
 
     />
